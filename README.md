@@ -64,14 +64,14 @@
 ```clojure
 ;; Templates
 :templates {
-  :en-tilda-mapping "hidutil property --set '{\"UserKeyMapping\": []}'"
-  :ru-tilda-mapping "hidutil property --set '{\"UserKeyMapping\": [{\"HIDKeyboardModifierMappingSrc\": 0x700000064, \"HIDKeyboardModifierMappingDst\": 0x700000035}, {\"HIDKeyboardModifierMappingSrc\": 0x700000035, \"HIDKeyboardModifierMappingDst\": 0x700000064}]}'"
+  :eng-tilda-mapping "hidutil property --set '{\"UserKeyMapping\": []}'"
+  :cyr-tilda-mapping "hidutil property --set '{\"UserKeyMapping\": [{\"HIDKeyboardModifierMappingSrc\": 0x700000064, \"HIDKeyboardModifierMappingDst\": 0x700000035}, {\"HIDKeyboardModifierMappingSrc\": 0x700000035, \"HIDKeyboardModifierMappingDst\": 0x700000064}]}'"
 }
 
  ;; Input Sources
  :input-sources {
-  :en-seigiard {:input_source_id "^org.sil.ukelele.keyboardlayout.seigiardlayout.english-seigiardtypography$"}
-  :ru-seigiard {:input_source_id "^org.sil.ukelele.keyboardlayout.seigiardlayout.cyrillic-seigiardtypography$"}
+  :eng-seigiard {:input_source_id "^org.sil.ukelele.keyboardlayout.seigiardlayout.english-seigiardtypography$"}
+  :cyr-seigiard {:input_source_id "^org.sil.ukelele.keyboardlayout.seigiardlayout.cyrillic-seigiardtypography$"}
 }
 
  ;; BINDINGS
@@ -80,8 +80,8 @@
     :des "Left Cmd → Seigiard Eng, Right Cmd → Seigiard Cyr"
     :rules [
       [:condi :!rdp :!parallels]
-      [:left_command      :left_command  nil  {:alone [{:input :en-seigiard} [:en-tilda-mapping]]}]
-      [:right_command     :right_command nil {:alone [{:input :ru-seigiard} [:ru-tilda-mapping]]}]
+      [:left_command      :left_command  nil  {:alone [{:input :eng-seigiard} [:eng-tilda-mapping]]}]
+      [:right_command     :right_command nil {:alone [{:input :cyr-seigiard} [:cyr-tilda-mapping]]}]
     ]
   }
 ]
