@@ -5,9 +5,20 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.seigiardlayout</string>
 	<key>CFBundleName</key>
-	<string>Seigaird simplified</string>
+	<string>Seigaird-keyboard</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>KLInfo_Cyrillic - Seigiard Typography</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<true/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.seigiardlayout.cyrillic-seigiardtypography</string>
+		<key>TISIntendedLanguage</key>
+		<string>ru-RU</string>
+	</dict>
 	<key>KLInfo_English - Seigiard Typography</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
@@ -18,17 +29,6 @@
 		<string>org.sil.ukelele.keyboardlayout.seigiardlayout.english-seigiardtypography</string>
 		<key>TISIntendedLanguage</key>
 		<string>en-US</string>
-	</dict>
-	<key>KLInfo_Russian - Seigiard Typography</key>
-	<dict>
-		<key>TICapsLockLanguageSwitchCapable</key>
-		<true/>
-		<key>TISIconIsTemplate</key>
-		<false/>
-		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.seigiardlayout.russian-seigiardtypography</string>
-		<key>TISIntendedLanguage</key>
-		<string>ru-RU</string>
 	</dict>
 </dict>
 </plist>

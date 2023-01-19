@@ -30,7 +30,7 @@
 
 ### Правила
 
-1. Основые слои (базовый и `shift`) остаются максимально as is
+1. Основные слои (базовый и `shift`) остаются максимально as is
 2. Все модификации вынесены на слои `opt` и `opt+shift` и работают на обеих раскладках.
 
 ### Изменения в основном слое
@@ -40,7 +40,7 @@
 3. Слэши `\|`теперь стандартны в обеих раскладках
 4. `#` теперь в обеих раскладках вызывается через `shift+3`
 
-### Дополнительне слои `opt` и `opt+shift`
+### Дополнительные слои `opt` и `opt+shift`
 
 Смотрите картинку ниже, там показаны все дополнительные символы, доступные в раскладке
 
@@ -71,13 +71,13 @@
  ;; Input Sources
  :input-sources {
   :en-seigiard {:input_source_id "^org.sil.ukelele.keyboardlayout.seigiardlayout.english-seigiardtypography$"}
-  :ru-seigiard {:input_source_id "^org.sil.ukelele.keyboardlayout.seigiardlayout.russian-seigiardtypography$"}
+  :ru-seigiard {:input_source_id "^org.sil.ukelele.keyboardlayout.seigiardlayout.cyrillic-seigiardtypography$"}
 }
 
  ;; BINDINGS
  :main [
   {
-    :des "Left Cmd → Seigiard En, Right Cmd → Seigiard Ru"
+    :des "Left Cmd → Seigiard Eng, Right Cmd → Seigiard Cyr"
     :rules [
       [:condi :!rdp :!parallels]
       [:left_command      :left_command  nil  {:alone [{:input :en-seigiard} [:en-tilda-mapping]]}]
