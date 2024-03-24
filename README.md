@@ -22,7 +22,7 @@
 
 **Можно сделать самому и ХУЖЕ**
 
-Вдохновившись типографской раскладкой Бирмана и универсальной раскладкой Тонского, я решил сварганить своё поделие.
+Вдохновившись [типографской раскладкой Бирмана](https://ilyabirman.ru/typography-layout/) и [универсальной раскладкой Тонского](https://github.com/tonsky/Universal-Layout), я решил сварганить своё поделие.
 
 ![Keyboard Layout, with transparent backgrount](./Seigiard-keyboard-layout.png)
 
@@ -50,7 +50,9 @@
 ### Кириллическая раскладка
 
 1. `№` — через `opt+3`
-2. `[їўґі]` через `opt+(shift)+[йуги]` — удобно для мнемонического запоминания
+2. Беларускія буквы `[іў]` через `opt+(shift)+[иу]` — удобно для мнемонического запоминания
+3. Апостроф `'` ставится через `opt+э`, где он и находится в английской раскладке
+4. Украинские буквы `[іїиєґ]` через `opt+(shift)+[ийыег]` — тоже удобно
 
 ![Keyboard Layout with descriptions](./Seigiard-keyboard-layout-with-description.png)
 
@@ -86,8 +88,17 @@
 ]
 ```
 
+## Установка
+
+- Скачать `.dmg`-файл
+- Открыть `.dmg`-файл
+- Перенести файл раскладки в папку `~/Library/Keyboard Layouts`
+- Возможно, придётся перезагрузить компьютер
+
+Можно попробовать и через инсталятор, сгенерированный Ukelele (лежит в архиве), но его работу я не могу гарантировать.
+
 # Universal Keyboard Layout
 
 Another approach to solve common problem.
 
-Inspired by [Tonsky's Universal Layout](https://github.com/tonsky/Universal-Layout). Based on [Ilya Birman′s typographic layout](https://ilyabirman.ru/typography-layout/).
+Inspired by [Tonsky's Universal Layout](https://github.com/tonsky/Universal-Layout) and [Ilya Birman′s typographic layout](https://ilyabirman.ru/typography-layout/).
