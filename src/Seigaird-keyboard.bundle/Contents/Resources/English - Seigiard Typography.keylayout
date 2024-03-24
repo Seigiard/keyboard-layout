@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 359 on 2023-01-04 at 16:42 (CET)-->
+<!--Last edited by Ukelele version 396 on 2024-03-24 at 10:49 (CET)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
 <keyboard group="0" id="11017" name="English - Seigiard Typography" maxout="2">
     <layouts>
@@ -395,10 +395,10 @@
             <key code="9" output="↓"/>
             <key code="10" output="`"/>
             <key code="11" output=""/>
-            <key code="12" output=""/>
-            <key code="13" output=""/>
-            <key code="14" output=""/>
-            <key code="15" output=""/>
+            <key code="12" action="acute 1"/>
+            <key code="13" action="caron"/>
+            <key code="14" action="diaeresis"/>
+            <key code="15" action="circumflex"/>
             <key code="16" output=""/>
             <key code="17" output=""/>
             <key code="18" output=""/>
@@ -1448,6 +1448,12 @@
         <action id="action">
             <when state="none" output=""/>
         </action>
+        <action id="acute">
+            <when state="none" next="acute"/>
+        </action>
+        <action id="acute 1">
+            <when state="none" next="acute"/>
+        </action>
         <action id="b">
             <when state="none" output="b"/>
             <when state="acute" output="ḿ"/>
@@ -1460,14 +1466,25 @@
             <when state="cedilla" output="ç"/>
             <when state="circumflex" output="ĉ"/>
         </action>
+        <action id="caron">
+            <when state="none" next="caron"/>
+            <when state="acute" next="caron"/>
+        </action>
         <action id="cedilla">
             <when state="none" output=""/>
             <when state="cedilla" output="̧"/>
+        </action>
+        <action id="circumflex">
+            <when state="none" next="circumflex"/>
+            <when state="diaeresis" next="circumflex"/>
         </action>
         <action id="d">
             <when state="none" output="d"/>
             <when state="caron" output="ď"/>
             <when state="cedilla" output="ḑ"/>
+        </action>
+        <action id="diaeresis">
+            <when state="none" next="diaeresis"/>
         </action>
         <action id="double-acute">
             <when state="none" next="double-acute"/>

@@ -41,7 +41,6 @@
 4. `#` теперь в обеих раскладках вызывается через `shift+3`
 
 ### Дополнительные слои `opt` и `opt+shift`
-
 Смотрите картинку ниже, там показаны все дополнительные символы, доступные в раскладке
 
 - Типографские кавычки первого уровня для англ и русской раскладке на `K` и `L`
@@ -92,4 +91,3 @@
 Another approach to solve common problem.
 
 Inspired by [Tonsky's Universal Layout](https://github.com/tonsky/Universal-Layout). Based on [Ilya Birman′s typographic layout](https://ilyabirman.ru/typography-layout/).
-
