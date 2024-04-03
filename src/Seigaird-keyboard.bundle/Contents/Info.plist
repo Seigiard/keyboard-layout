@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Seigaird-keyboard</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>KLInfo_Cyrillic - Seigiard Typography</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
@@ -28,7 +28,7 @@
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.seigiardlayout.english-seigiardtypography</string>
 		<key>TISIntendedLanguage</key>
-		<string>en-US</string>
+		<string>en-EU</string>
 	</dict>
 </dict>
 </plist>

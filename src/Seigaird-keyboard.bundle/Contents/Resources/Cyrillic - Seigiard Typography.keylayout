@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 396 on 2024-03-24 at 11:02 (CET)-->
+<!--Last edited by Ukelele version 396 on 2024-04-03 at 10:17 (CEST)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
 <keyboard group="126" id="-3999" name="Cyrillic - Seigiard Typography" maxout="2">
     <layouts>
@@ -405,7 +405,7 @@
             <key code="16" action="ѣ"/>
             <key code="17" output="є"/>
             <key code="18" output=""/>
-            <key code="19" output=""/>
+            <key code="19" output="@"/>
             <key code="20" output="№"/>
             <key code="21" output="$"/>
             <key code="22" output="↑"/>
